@@ -13,9 +13,11 @@ struct CalorieLogView: View {
                     Spacer()
                     Text("\(entry.calories) kcal")
                 }
+                .transition(.slide.combined(with: .opacity))
             }
             .onDelete(perform: deleteEntries)
         }
+        .animation(.easeInOut, value: logEntries)
         .navigationTitle("Today's Log")
         .toolbar {
             EditButton()
@@ -23,9 +25,11 @@ struct CalorieLogView: View {
     }
 
     private func deleteEntries(at offsets: IndexSet) {
-        for offset in offsets {
-            let entry = logEntries[offset]
-            modelContext.delete(entry)
+        withAnimation(.easeInOut) {
+            for offset in offsets {
+                let entry = logEntries[offset]
+                modelContext.delete(entry)
+            }
         }
     }
 }

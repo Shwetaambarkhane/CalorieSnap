@@ -16,6 +16,7 @@
 		A28E52E12C2E4E6D00412B4D /* CalorieLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28E52E22C2E4E6D00412B4D /* CalorieLogView.swift */; };
 		AA1F42C92E0882F400A17CBA /* SeeFood.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AA1F42C82E0882F300A17CBA /* SeeFood.mlmodel */; };
 		AA1F42CB2E0888FB00A17CBA /* calories.csv in Resources */ = {isa = PBXBuildFile; fileRef = AA1F42CA2E0888FB00A17CBA /* calories.csv */; };
+		AA89232D2E1712BC00C69590 /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA89232C2E1712BC00C69590 /* ProgressCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A28E52E22C2E4E6D00412B4D /* CalorieLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieLogView.swift; sourceTree = "<group>"; };
 		AA1F42C82E0882F300A17CBA /* SeeFood.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SeeFood.mlmodel; sourceTree = "<group>"; };
 		AA1F42CA2E0888FB00A17CBA /* calories.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = calories.csv; sourceTree = "<group>"; };
+		AA89232C2E1712BC00C69590 /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -52,6 +54,7 @@
 		A28E52C42C2E4E6A00412B4D /* CalorieSnap */ = {
 			isa = PBXGroup;
 			children = (
+				AA89232C2E1712BC00C69590 /* ProgressCircle.swift */,
 				A28E52C52C2E4E6A00412B4D /* CalorieSnapApp.swift */,
 				A28E52C72C2E4E6B00412B4D /* ContentView.swift */,
 				A28E52D42C2E4E6D00412B4D /* ImagePicker.swift */,
@@ -136,6 +139,7 @@
 				A28E52C82C2E4E6B00412B4D /* ContentView.swift in Sources */,
 				A28E52C62C2E4E6A00412B4D /* CalorieSnapApp.swift in Sources */,
 				A28E52D32C2E4E6D00412B4D /* ImagePicker.swift in Sources */,
+				AA89232D2E1712BC00C69590 /* ProgressCircle.swift in Sources */,
 				A28E52D72C2E4E6D00412B4D /* FoodClassifier.swift in Sources */,
 				A28E52DD2C2E4E6D00412B4D /* CalorieService.swift in Sources */,
 				A28E52DF2C2E4E6D00412B4D /* LogEntry.swift in Sources */,
