@@ -1,11 +1,5 @@
-//
-//  CalorieSnapApp.swift
-//  CalorieSnap
-//
-//  Created by Shweta Ambarkhane on 21/06/25.
-//
-
 import SwiftUI
+import SwiftData
 
 @main
 struct CalorieSnapApp: App {
@@ -13,5 +7,6 @@ struct CalorieSnapApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: LogEntry.self)
     }
-}
+} 
